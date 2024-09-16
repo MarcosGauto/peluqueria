@@ -1,5 +1,5 @@
 
-function Header({ cart, removeFromCart, increaseQuantity, decreaseQuantity, clearCart, isEmty, cartTotal }) {
+function NavBar({ cart, removeFromCart, increaseQuantity, decreaseQuantity, clearCart, isEmty, cartTotal }) {
 
     return (
         <header className="py-5 header">
@@ -10,7 +10,7 @@ function Header({ cart, removeFromCart, increaseQuantity, decreaseQuantity, clea
                     </div>
                     <nav className="col-md-6 a mt-5 d-flex align-items-start justify-content-end">
                     <ul className="d-flex gap-4 list-unstyled mb-5 m-8 w-100 mt-3 p-2 text-lg">
-                            <li>
+                        <li>
                                 <a className="text-white text-decoration-none" href="/">Home</a>
                             </li>
                             <li>
@@ -102,4 +102,4 @@ function Header({ cart, removeFromCart, increaseQuantity, decreaseQuantity, clea
 
 }
 
-export default Header;
+export default NavBar;
