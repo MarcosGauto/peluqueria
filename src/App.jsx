@@ -14,6 +14,7 @@ function App() {
   return (
     <>
       <NavBar/>
+
       <Routes>
           <Route path="/inicio" element={<Inicio/>} />
           <Route path="/quienesSomos" element={<QuienesSomos/>} />
