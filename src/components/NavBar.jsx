@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function NavBar({ cart, removeFromCart, increaseQuantity, decreaseQuantity, clearCart, isEmty, cartTotal }) {
 
     return (
-        <header className="py-5 header">
+        <header className="py-5}4 header">
             <div className="container-xl">
                 <div className="row justify-content-center justify-content-md-between">
                     <div className="col-8 col-md-3">
