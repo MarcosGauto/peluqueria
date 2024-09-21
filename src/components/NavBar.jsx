@@ -12,7 +12,7 @@ function NavBar({ cart, removeFromCart, increaseQuantity, decreaseQuantity, clea
                     <nav className="col-md-6 a mt-5 d-flex align-items-start justify-content-end">
                     <ul className="d-flex gap-4 list-unstyled mb-5 m-8 w-100 mt-3 p-2 text-lg">
                             <li>
-                            <Link to="/inicio"> Inicio</Link>
+                            <Link to="/Inicio"> Inicio</Link>
                             </li>
                             <li>
                             <Link to="/QuienesSomos"> Quienes Somos</Link>

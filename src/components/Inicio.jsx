@@ -99,6 +99,9 @@ function Inicio() {
         </Swiper>
 
       </div>
+      <div className=' bg-'>
+
+      </div>
 
 
     </div>
