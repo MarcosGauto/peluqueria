@@ -5,6 +5,8 @@ export const db = [
         image: 'Shampoo',
         description: 'El SHAMPOO DAILY, otorga una limpieza refrescante y profunda que revitaliza tanto al cabello como al cuero cabelludo. Enriquecido con menta.',
         price: 299,
+        quantity: 1,
+        
     },
     {
         id: 2,
@@ -12,6 +14,7 @@ export const db = [
         image: 'brocha',
         description: 'Morbi Elegante y clásica con cerdas de tejón. Accesorio tradicional para uso en barberías, salones o en casa.',
         price: 349,
+        quantity: 1,
     },
     {
         id: 3,
@@ -19,6 +22,7 @@ export const db = [
         image: 'balsamo',
         description: 'Morbi ornare aBÁLSAMO ACONDICIONADOR para la barba Boffel. Hidrata y mejora la piel a partir de sus elementos naturales.',
         price: 329,
+        quantity: 1,
     },
     {
         id: 4,
@@ -26,12 +30,14 @@ export const db = [
         image: 'aceite',
         description: 'ACEITE ACONDICIONADOR Boffel para barba y cabello. Revitalizante y estimulante.',
         price: 299,
+        quantity: 1,
     },
     {
         id: 5,
         name: 'Crema de Afeitar Boffel 120ml',
         image: 'crema',
         description: 'La CREMA DE AFEITAR Boffel esta enriquecida con aloe y mentol, permite un afeitado suave',
+        quantity: 1,
     },
     {
         id: 6,
@@ -39,6 +45,7 @@ export const db = [
         image: 'cera',
         description: 'Creada para obtener la fijación perfecta. FINESSE HEADSHOT mantiene intacto todos los looks y estilos.',
         price: 329,
+        quantity: 1,
     },
 
   ]

@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from "react";
 import { db } from "../data/db";
 
+
 const useCart = () =>{
     
     const initialCart = () => { //se genera para saber el valor inicial y sino ponerlo en el arreglo vacio
